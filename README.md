@@ -102,33 +102,72 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
 
+1.Using nand gates and wires construct sr flip flop
+
+2.Repeat the same steps for JK,D,T flipflops.
+
+3.Find RTL logic and timing diagram for all flipflops
+
+4.End the program.
 
 
 ### PROGRAM 
 /*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+
+Developed by: ARUN KUMAR SUKDEV CHAVAN
+
+RegisterNumber:  212222230013
 */
+### D FLIPFLOP PROGRAM:
+![image](https://github.com/arunkumarsukdevchavan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118343978/20866bff-9d02-4898-bb58-c059c1862378)
+
+### JK FLIPFLOP PROGRAM:
+![image](https://github.com/arunkumarsukdevchavan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118343978/a8cfcb44-31c1-4d53-96a4-25696a600022)
+
+
+### SR FLIPFLOP PROGRAM:
+![image](https://github.com/arunkumarsukdevchavan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118343978/a6361901-5961-4218-b6fc-5181c3ba27d4)
+
+### T FLIPFLOP PROGRAM:
+![image](https://github.com/srikarthickeyanganapathy/Experiment--05-Implementation-of-flipflops-using-verilog/raw/main/flipflopT/Screenshot%20(63).png)
+
+### RTL LOGIC FOR FLIPFLOPS
+### D FLIPFLOP RTL:
+![image](https://github.com/arunkumarsukdevchavan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118343978/21ef3301-ac0b-4cf0-922c-90ec332e2073)
+
+
+### JK FLIPFLOP RTL:
+![image](https://github.com/arunkumarsukdevchavan/Experiment--05-Implementation-of-flipflops-using-verilog/assets/118343978/bde2147e-106a-45a3-b215-3029421ec38a)
+
+
+### SR FLIPFLOP RTL:
+![image](https://github.com/srikarthickeyanganapathy/Experiment--05-Implementation-of-flipflops-using-verilog/raw/main/flipflopsr/Screenshot%20(54).png)
+
+
+### T FLIPFLOP RTL:
+![image](https://github.com/srikarthickeyanganapathy/Experiment--05-Implementation-of-flipflops-using-verilog/raw/main/flipflopT/Screenshot%20(64).png)
+
+### TIMING DIGRAMS FOR FLIP FLOPS
+### D FLIPFLOP TIMING DIAGRAMS:
+![image](https://github.com/srikarthickeyanganapathy/Experiment--05-Implementation-of-flipflops-using-verilog/raw/main/flipflopD/Screenshot%20(62).png)
+
+
+### JK FLIPFLOP TIMING DIAGRAMS:
+![image](https://github.com/srikarthickeyanganapathy/Experiment--05-Implementation-of-flipflops-using-verilog/raw/main/flipflopjk/Screenshot%20(59).png)
+
+
+### SR FLIPFLOP TIMING DIAGRAM:
+![image](https://github.com/srikarthickeyanganapathy/Experiment--05-Implementation-of-flipflops-using-verilog/raw/main/flipflopsr/Screenshot%20(56).png)
+
+
+### T FLIPFLOP TIMING DIAGRAM:
+
+![image](https://github.com/srikarthickeyanganapathy/Experiment--05-Implementation-of-flipflops-using-verilog/raw/main/flipflopT/Screenshot%20(65).png)
 
 
 
-
-
-
-### RTL LOGIC FOR FLIPFLOPS 
-
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR FLIP FLOPS 
 
 
 
@@ -138,3 +177,4 @@ RegisterNumber:
 
 
 ### RESULTS 
+Thus To implement all the flipflops using verilog and validating their functionality using their functional tables is verified using quartus software.
